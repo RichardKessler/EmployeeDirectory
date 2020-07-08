@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "Richard Kessler",
+        "phone": "(240) 434-1807",
+        "email": "KesslerRichardJ@gmail.com",
+        "position": "CEO"
+    },
+    {
+        "id": 2,
+        "name": "Jid Menosta",
+        "phone": "(316) 631-0316",
+        "email": "JidMenosta@gmail.com",
+        "position": "CFO"
+    },
+    {
+        "id": 3,
+        "name": "Steve Austin",
+        "phone": "(555) 613-3160",
+        "email": "StondCold@gmail.com",
+        "position": "Marketing Manager"
+    },
+    {
+        "id": 4,
+        "name": "George Kittle",
+        "phone": "(085) 885-8585",
+        "email": "Kittle85@sf49.com",
+        "position": "Receiving Manager"
+    },
+    {
+        "id": 5,
+        "name": "Jimmy Garoppolo",
+        "phone": "(010) 100-1010",
+        "email": "JimmyG10@sf49.com",
+        "position": "Shipping Manager"
+    },
+    {
+        "id": 6,
+        "name": "Bill Walsh",
+        "phone": "(079) 019-8804",
+        "email": "BillWalsh@sf49.com",
+        "position": "Head of Research and Development"
+    },
+    {
+        "id": 7,
+        "name": "Joe Montana",
+        "phone": "(016) 040-1619",
+        "email": "JoeCool@sf49.com",
+        "position": "Head of Human Resources"
+    },
+    {
+        "id": 8,
+        "name": "Jerry Rice",
+        "phone": "(197) 208-1549",
+        "email": "JerryRice80@sf49.com",
+        "position": "Talent Recruiter"
+    },
+    {
+        "id": 9,
+        "name": "Patrick Roy",
+        "phone": "(551) 315-0033",
+        "email": "SaintPatrick@gmail.com",
+        "position": "Head Council/Legal"
+    },
+    {
+        "id": 10,
+        "name": "Henrik Lundqvist",
+        "phone": "(520) 375-1015",
+        "email": "TheKing30@nyranger.com",
+        "position": "Senior Engineer"
+    }
+]
