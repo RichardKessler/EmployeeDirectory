@@ -29,3 +29,7 @@ To use this application run the following command in your prefered terminal to i
 Once you have the packages installed you can use the command `npm start` to start the application in development mode so that you can make changes as needed and test some features.  When you are satisfied with the changes you have and want to push to production then run the command `npm build`.
 
 ## Description
+
+This application is designed for Human resources, hiring managers, and anyone that needs to access a full directory of employees.  The displayed informantion includes employee name, phone number, email, and their position at the company.  The current deployed demo for this application is available at : https://frosty-knuth-dfbbf2.netlify.app/.
+
+<div align='center'><img src='public/fassets/EmployeeDirectory.png' width='700' alt='demo picture'></div>
