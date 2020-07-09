@@ -22,13 +22,28 @@ class App extends Component {
     this.setState({ sortedEmployees: sorted, ascending: !ascending })
   }
 
+
   render() {
+    const filterEmployees = (employee) => {
+      if (employee === '') {
+        this.setState({ sortedEmployees: employees })
+        return
+      }
+      // console.log('employee ', employee)
+      const filteredEmployees = this.state.sortedEmployees.filter(e => e.name === employee)
+      if (filteredEmployees.length === 0) {
+        return
+      }
+      this.setState({ sortedEmployees: filteredEmployees })
+    }
+
+
     return (
       <Wrapper>
         <div className='container'>
           <Title>Directory of Employees</Title>
 
-          <Form />
+          <Form filterEmployees={filterEmployees} />
           <table className='table'>
             <thead>
               <tr className='header'>
@@ -41,12 +56,12 @@ class App extends Component {
             {this.state.sortedEmployees.map(employee => {
               return (
                 <Employee
-                id={employee.id}
-                key={employee.id}
-                name={employee.name}
-                phone={employee.phone}
-                email={employee.email}
-                position={employee.position}
+                  id={employee.id}
+                  key={employee.id}
+                  name={employee.name}
+                  phone={employee.phone}
+                  email={employee.email}
+                  position={employee.position}
                 />
               )
             })}
