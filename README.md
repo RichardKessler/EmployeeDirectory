@@ -32,4 +32,4 @@ Once you have the packages installed you can use the command `npm start` to star
 
 This application is designed for Human resources, hiring managers, and anyone that needs to access a full directory of employees.  The displayed informantion includes employee name, phone number, email, and their position at the company.  The current deployed demo for this application is available at : https://frosty-knuth-dfbbf2.netlify.app/.
 
-<div align='center'><img src='public/fassets/EmployeeDirectory.png' width='700' alt='demo picture'></div>
+<div align='center'><img src='./public/assets/EmployeeDirectory.png' width='700' alt='demo picture'></div>
