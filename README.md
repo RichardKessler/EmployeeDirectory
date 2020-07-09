@@ -14,7 +14,7 @@ This is a single-page application that was created using React.  This applicatio
 * [Installation](#Installation)
 * [Usage](#Usage)
 * [Description](#Description)
-* [Build With](#Built-With)
+* [Built With](#Built-With)
 * [Demo](#Demo)
 * [License](#License)
 * [Author](#Author)
@@ -33,3 +33,25 @@ Once you have the packages installed you can use the command `npm start` to star
 This application is designed for Human resources, hiring managers, and anyone that needs to access a full directory of employees.  The displayed informantion includes employee name, phone number, email, and their position at the company.  The current deployed demo for this application is available at : https://frosty-knuth-dfbbf2.netlify.app/.
 
 <div align='center'><img src='./public/assets/EmployeeDirectory.png' width='700' alt='demo picture'></div>
+
+## Built With
+
+* HTML5
+* CSS3
+* Javascript
+* Express
+* React
+* VS Code
+* Netlify
+
+## Demo
+
+<div align='center'><img src='./public/assets/empdirect.gif' width='700' alt='demo'></div>
+
+## License
+
+Creative Commons Zero v1.0 Universal - CC0 1.0 Universal
+
+## Author
+
+* Richard Kessler - Full Stack Developer
